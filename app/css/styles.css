@@ -1,0 +1,22 @@
+#container {
+    width: "90%";
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper_content {
+    display: flex;
+}
+.wrapper_content .btnGameOnTab {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content {
+    font-size: 0.875rem;
+    text-align: left;
+    padding: 10px;
+    font-weight: normal;
+}
